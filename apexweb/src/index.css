@@ -1,0 +1,13 @@
+
+@import url("https://use.typekit.net/mim6fmu.css");
+
+body {
+  font-family: ofelia-display, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}

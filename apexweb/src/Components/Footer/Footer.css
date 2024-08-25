@@ -1,0 +1,42 @@
+.contenedor-logo-footer {
+    display: flex;
+    align-items: center; /* Centrar horizontalmente */
+    justify-content: center; /* Centrar verticalmente */
+    text-align: center; /* Asegura que el texto del logotipo esté centrado */
+}
+
+.logo-footer {
+    width: 100px;
+}
+
+.logotipo-footer {
+    font-size: 32pt;
+    color: var(--ligth-color);
+    font-weight: 700;
+    margin-top: 10px; /* Espacio entre el logo y el texto */
+}
+
+.titulo-footer {
+    font-weight: 500;
+    font-size: var(--tamaño-fuente);
+    margin: 0;
+    padding: 5px 0;
+    text-align: center; /* Asegura que el texto debajo también esté centrado */
+}
+
+.links-footer {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-top: 15px;
+}
+
+hr.border-light {
+    border-top: 1px solid #f8f9fa; /* Color del borde */
+    margin: 20px 0;
+}
+
+.titulo-redes-footer{
+    font-size: var(--tamaño-fuente);
+    font-weight: 300;
+}

@@ -1,0 +1,47 @@
+*{
+    box-sizing: border-box;   
+    margin: 0;
+    padding: 0;
+   }
+
+:root{
+    --tamaño-fuente: 12pt;
+    --primary-color: #333366;
+    --dark-color: #330000;
+    --ligth-color: #FFEEE1;   
+    --font-size: 13pt;
+}
+
+.App{
+    font-family: ofelia-display, sans-serif;
+    font-size: var(--tamaño-fuente);
+    max-width: 768px; /* Establece el ancho máximo */
+    padding: 0 15px; /* Opcional: agrega un pequeño padding lateral */
+    color: var(--primary-color);
+}
+
+a{
+    text-decoration: none;
+}
+
+.logotipo {
+    font-size: var(--font-size);
+    font-weight: 800;
+    padding-top: 6px;
+    color: var(--primary-color);
+  }
+
+.titulo{
+    font-size: var(--tamaño-fuente);
+    font-weight: 500;
+    margin-left: 10px;
+}
+
+.parrafo{
+    font-size: 10pt;
+    font-weight: 500;
+    margin-left: 10px;
+}
+
+
+

@@ -1,0 +1,38 @@
+.social-links {
+    display: flex;
+    justify-content: flex-start; /* Alinea los íconos a la izquierda */
+    margin-top: 20px;    
+    margin-left: 10px;
+}
+
+.social-links a {
+    margin-right: 10px;
+    color: var(--dark-color); /* Cambia el color según tu preferencia */
+    text-decoration: none;
+}
+
+.social-links a:hover {
+    color: var(--primary-color); /* Color de hover */
+}
+
+.encabezado {
+    font-size: 25pt;
+    font-weight: 700;
+    margin-top: 10px;
+    padding-left: 10px;
+    text-align: left; /* Alinea el encabezado a la izquierda */
+}
+
+.titulo {
+    font-size: var(--tamaño-fuente);
+    font-weight: 500;
+    margin-top: 10px;
+    text-align: left; /* Alinea el título a la izquierda */
+}
+
+.parrafo {
+    font-size: 10pt;
+    font-weight: 500;
+    margin-top: 10px;
+    text-align: left; /* Alinea el párrafo a la izquierda */
+}

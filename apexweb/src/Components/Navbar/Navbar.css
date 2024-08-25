@@ -1,0 +1,13 @@
+.navbar{
+  background-color: var(--ligth-color);  
+}
+
+.logo{
+  width: 45px;
+}
+.logotipo {
+    font-size: var(--font-size);
+    font-weight: 800;
+    padding-top: 6px;
+    color: var(--primary-color);
+  }
