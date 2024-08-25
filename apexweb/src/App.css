@@ -16,6 +16,7 @@
     font-family: ofelia-display, sans-serif;
     font-size: var(--tamaño-fuente);
     max-width: 768px; /* Establece el ancho máximo */
+    margin: 0 auto; /* Centra el contenido horizontalmente */
     padding: 0 15px; /* Opcional: agrega un pequeño padding lateral */
     color: var(--primary-color);
 }
