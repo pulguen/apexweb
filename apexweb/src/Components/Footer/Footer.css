@@ -2,15 +2,15 @@
     display: flex;
     align-items: center; /* Centrar horizontalmente */
     justify-content: center; /* Centrar verticalmente */
-    text-align: center; /* Asegura que el texto del logotipo esté centrado */
-}
+    text-align: center; /* Asegura que el texto del logotipo esté centrado */    
+    }
 
 .logo-footer {
-    width: 100px;
+    width: 80px;
 }
 
 .logotipo-footer {
-    font-size: 32pt;
+    font-size: 28pt;
     color: var(--ligth-color);
     font-weight: 700;
     margin-top: 10px; /* Espacio entre el logo y el texto */
@@ -39,4 +39,9 @@ hr.border-light {
 .titulo-redes-footer{
     font-size: var(--tamaño-fuente);
     font-weight: 300;
+}
+
+.pie{
+    font-size: var(--tamaño-fuente);
+    color: var(--ligth-color);
 }

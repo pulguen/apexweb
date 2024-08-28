@@ -1,6 +1,6 @@
 .btn-wpp {
     color: var(--primary-color);
-    border-color: var(--primary-color);
+    border-color: var(--dark-color);
     width: 250px;
     display: flex;
     align-items: center;
@@ -15,4 +15,14 @@
 .btn-link {
     margin-left: 5px;
     color: var(--primary-color);
+}
+
+.icono-horario{
+    display: flex;
+    margin-left: 30px;
+    margin-top: 10px;
+}
+
+.contenedor-horarios{
+    padding-left: 20px;
 }

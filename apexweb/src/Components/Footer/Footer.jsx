@@ -18,7 +18,7 @@ function Footer() {
               <img alt="logo apex" src={logo} className="logo-footer" />
               <span className="logotipo-footer">APEX</span>
             </div>
-            <p className="mt-3 titulo-footer">La fuerza que buscas está a un solo paso.<br />¡Da ese paso hoy mismo!</p>
+            <p className="mt-3 titulo-footer">La fuerza que buscas<br/>está a un solo paso.<br />¡Da ese paso hoy mismo!</p>
           </Col>
           <Col md={6} className="text-center">
             <p className='titulo-redes-footer'>Síguenos en las redes sociales</p>
@@ -40,8 +40,8 @@ function Footer() {
         <hr className="border-light" />
         <Row>
           <Col className="text-center">
-            <p className="mb-0">&copy; 2024 APEX GYM. Todos los derechos reservados.</p>
-            <i className="mb-0">by Taller de Otto.</i>
+            <p className="mb-0 pie">&copy; 2024 APEX. Todos los derechos reservados.</p>
+            <i className="mb-0 pie">by Taller de Otto.</i>
           </Col>
         </Row>
       </Container>
