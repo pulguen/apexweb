@@ -27,7 +27,7 @@ function Footer() {
                 <a href="https://www.facebook.com/profile.php?id=61564456332415" target="_blank" rel="noopener noreferrer">
                   <FontAwesomeIcon icon={faFacebook} size="2x" color="white" />
                 </a>
-                <a href="https://www.tiktok.com/es/" target="_blank" rel="noopener noreferrer">
+                <a href="https://www.tiktok.com/@apex.fuerza.zapala" target="_blank" rel="noopener noreferrer">
                   <FontAwesomeIcon icon={faTiktok} size="2x" color="white" />
                 </a>
                 <a href="https://www.instagram.com/apex.fuerza.zapala/" target="_blank" rel="noopener noreferrer">
