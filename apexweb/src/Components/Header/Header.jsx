@@ -12,13 +12,13 @@ export default function Header() {
       <h1 className='encabezado'>Tu camino<br /> Hacia la<br /> Fuerza</h1>
       <p className='parrafo'>Gimnasio de fuerza y acondicionamiento físico dedicado a ayudar a los atletas a alcanzar su máximo potencial.</p>
       <div className=" mt-0 social-links">
-        <a href="https://www.facebook.com" target="_blank" rel="noopener noreferrer">
+        <a href="https://www.facebook.com/profile.php?id=61564456332415" target="_blank" rel="noopener noreferrer">
           <FontAwesomeIcon icon={faFacebook} size="2x" />
         </a>
-        <a href="https://www.twitter.com" target="_blank" rel="noopener noreferrer">
+        <a href="https://www.tiktok.com/es/" target="_blank" rel="noopener noreferrer">
           <FontAwesomeIcon icon={faTiktok} size="2x" />
         </a>
-        <a href="https://www.instagram.com" target="_blank" rel="noopener noreferrer">
+        <a href="https://www.instagram.com/apex.fuerza.zapala/" target="_blank" rel="noopener noreferrer">
           <FontAwesomeIcon icon={faInstagram} size="2x" />
         </a>
       </div>
