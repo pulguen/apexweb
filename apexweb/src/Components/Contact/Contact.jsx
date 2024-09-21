@@ -63,8 +63,9 @@ function Contact() {
             <h4 className='titulo'>Horarios</h4>
           </div>
           <div className='contenedor-horarios'>
-            <p className='parrafo'>🔼 Lunes a Viernes de 15:00 a 20:00HS</p>
-            <p className='parrafo'>🔼 Martes y Jueves de 15:15 a 17:30HS</p>
+            <p className='parrafo'>🔼 Lunes a Viernes de 15:00 a 19:00 hs.</p>            
+            <p className='parrafo'>🔼 Martes y Jueves de 16:00 a 18:00 hs.</p>
+            <p className='parrafo'>🔼 Miércoles de 16:00 a 19:00 hs.</p>
           </div>
         </div>
       </Collapse>
@@ -111,9 +112,9 @@ function Contact() {
             <h4 className='titulo'>Horarios</h4>
           </div>
           <div className='contenedor-horarios'>
-            <p className='parrafo'>🔼 Lunes a Viernes de 8:00 a 12:00HS</p>
-            <p className='parrafo'>🔼 Miércoles de 20:00 a 22:00HS</p>
-            <p className='parrafo'>🔼 Viernes de 20:00 a 23:00HS</p>
+            <p className='parrafo'>🔼 Lunes a Viernes de 8:00 a 12:00 hs.</p>
+            <p className='parrafo'>🔼 Miércoles de 20:00 a 22:00 hs.</p>
+            <p className='parrafo'>🔼 Viernes de 20:00 a 23:00 hs.</p>
           </div>
         </div>
       </Collapse>
@@ -160,7 +161,7 @@ function Contact() {
             <h4 className='titulo'>Horarios</h4>
           </div>
           <div className='contenedor-horarios'>
-            <p className='parrafo'>🔼 Lunes, Miércoles y Viernes de 13:00 a 15:00 hs</p>
+            <p className='parrafo'>🔼 Lunes, Miércoles y Viernes de 13:00 a 15:00 hs.</p>
           </div>
         </div>
       </Collapse>
@@ -207,8 +208,8 @@ function Contact() {
             <h4 className='titulo'>Horarios</h4>
           </div>
           <div className='contenedor-horarios'>
-            <p className='parrafo'>🔼 Martes y Jueves 17:30 a 22:00 hs.</p>
             <p className='parrafo'>🔼 Lunes de 20:00 a 22:00 hs.</p>
+            <p className='parrafo'>🔼 Martes y Jueves 17:30 a 22:00 hs.</p>
 
           </div>
         </div>
