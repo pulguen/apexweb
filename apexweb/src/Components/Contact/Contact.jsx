@@ -209,7 +209,7 @@ function Contact() {
           </div>
           <div className='contenedor-horarios'>
             <p className='parrafo'>🔼 Lunes de 20:00 a 22:00 hs.</p>
-            <p className='parrafo'>🔼 Martes y Jueves 17:30 a 22:00 hs.</p>
+            <p className='parrafo'>🔼 Martes y Jueves 18:00 a 23:00 hs.</p>
 
           </div>
         </div>
