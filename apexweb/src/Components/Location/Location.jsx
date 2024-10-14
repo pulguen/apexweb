@@ -7,7 +7,7 @@ import './Location.css'
 function Contact() {
   return (
     <>
-      <Container className='mt-3 mb-3'>
+      <Container className='mt-4 mb-3'>
         <h3 className='titulo'>¿Dónde estamos? vení a conocernos.</h3>
         
         <p className='parrafo'>

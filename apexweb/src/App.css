@@ -13,7 +13,6 @@
 
 .App{
     font-family: ofelia-display, sans-serif;
-    font-size: var(--tamaño-fuente);
     max-width: 500px; /* Establece el ancho máximo */
     margin: 0 auto; /* Centra el contenido horizontalmente */
     padding: 0 15px; /* Opcional: agrega un pequeño padding lateral */
@@ -32,8 +31,8 @@ a{
   }
 
 .titulo{
-    font-size: var(--tamaño-fuente);
-    font-weight: 500;
+    font-size: 16pt;
+    font-weight: 700;
     margin-left: 10px;
 }
 
