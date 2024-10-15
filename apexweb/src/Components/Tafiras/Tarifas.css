@@ -1,34 +1,74 @@
-.tarifa-item p {
-    margin-left: 10px;
-    margin-right: 10px;
-    margin-top: 0;  /* Elimina margen superior */
-    margin-bottom: 0; /* Elimina margen inferior */
-    margin-left: 20px;  /* Espacio más pequeño entre cada elemento */
-    margin-right: 20px; /* Espacio más pequeño entre cada elemento */
+/* Tarjetas para las tarifas */
+.tarifa-item {
+    background-color:var(--light-color);
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra suave */
+    transition: transform 0.2s ease;
+    display: flex; /* Usamos flexbox para alineación horizontal */
+    justify-content: space-between; /* Distribuye espacio entre los elementos */
+    align-items: center; /* Alineación centrada verticalmente */
 }
 
-.dias{
+/* Ajustar el espaciado y tipografía */
+.dias, .semana, .precio {
+    margin: 0 15px; /* Margen lateral más grande */
+    padding: 5px 0; /* Padding vertical para centrar mejor */
+}
+
+.dias {
     font-weight: 700;
-    font-size: 13pt;
+    font-size: 1.2rem;
+    color: var(--primary-color);
 }
 
-.semana{
-    font-size: 10pt;
+.semana {
+    font-size: 0.85rem;
     font-weight: 400;
+    color: #666;
+    text-align: center; /* Centrar el texto de "DIAS POR SEMANA" */
+    flex: 1; /* Asegura que ocupe más espacio central */
 }
 
-.precio{
+.precio {
     font-weight: 700;
-    font-size: 13pt;
+    font-size: 1.2rem;
+    color: #333;
 }
 
-.detalle-tarifas{
-    margin-left: 10px;
-    font-size: 8tp;
+/* Detalles de las tarifas */
+.detalle-tarifas {
+    font-size: 0.8rem;
+    color: #555;
+    margin: 5px 0;
+}
+
+/* Título y texto principal */
+.titulo {
+    font-size: 1.3rem;
+    font-weight: 700;
+    color: var(--primary-color);
+}
+
+.parrafo {
+    font-size: 0.9rem;
     font-weight: 400;
-    margin-bottom: 0px;
-
+    color: #555;
 }
 
+/* Mantener la disposición en línea en pantallas pequeñas */
+@media (max-width: 576px) {
+    .tarifa-item {
+        display: flex; /* Mantiene el layout flexbox */
+        flex-direction: row; /* Asegura que los elementos se mantengan en línea */
+        text-align: left; /* Alinear el texto a la izquierda en móviles */
+    }
 
+    .dias, .semana, .precio {
+        font-size: 0.9rem;
+    }
 
+    .parrafo, .detalle-tarifas {
+        font-size: 0.85rem;
+    }
+}

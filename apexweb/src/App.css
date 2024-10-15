@@ -1,43 +1,64 @@
-*{
+* {
     box-sizing: border-box;   
     margin: 0;
     padding: 0;
-   }
-
-:root{
-    --tamaño-fuente: 13pt;
-    --primary-color: #333366;
-    --dark-color: #330000;
-    --ligth-color: #FFEEE1;   
 }
 
-.App{
-    font-family: ofelia-display, sans-serif;
-    max-width: 500px; /* Establece el ancho máximo */
-    margin: 0 auto; /* Centra el contenido horizontalmente */
-    padding: 0 15px; /* Opcional: agrega un pequeño padding lateral */
+:root {
+    --tamaño-fuente: 1rem; /* Ajustado a rem */
+    --primary-color: #333366;
+    --dark-color: #330000;
+    --light-color: #FFEEE1;
+}
+
+.App {
+    font-family: 'Ofelia Display', sans-serif;
+    max-width: 100%; /* Usa el 100% del ancho disponible */
+    margin: 0 auto;
+    padding: 0 15px;
     color: var(--primary-color);
 }
 
-a{
-    text-decoration: none;
+@media (min-width: 576px) {
+    .App {
+        max-width: 500px; /* Limita el ancho en pantallas más grandes */
+    }
+}
+
+a {
+    color: var(--primary-color);
+    text-decoration: underline; /* Subraya los enlaces para mayor accesibilidad */
+}
+
+a:hover {
+    color: var(--dark-color); /* Cambia el color al pasar el mouse */
+    text-decoration: none; /* Elimina el subrayado en hover */
 }
 
 .logotipo {
-    font-size: var(--tamaño-fuente);
+    font-size: 1.25rem; /* Ajustado para que sea más pequeño y adecuado */
     font-weight: 800;
     padding-top: 6px;
     color: var(--primary-color);
-  }
-
-.titulo{
-    font-size: 16pt;
-    font-weight: 700;
-    margin-left: 10px;
 }
 
-.parrafo{
-    font-size: 10pt;
-    font-weight: 500;
+.titulo {
+    font-size: 14pt;
+    font-weight: 700;
     margin-left: 10px;
+    color: var(--primary-color); /* Color principal */
+}
+
+.parrafo {
+    font-size: 1rem; /* Tamaño adecuado para el cuerpo del texto */
+    font-weight: 400;
+    margin-left: 10px;
+    color: #555;
+}
+
+/* Detalle de tarifas (en el componente Tarifas) */
+.detalle-tarifas {
+    font-size: 0.85rem; /* Tamaño ajustado para los detalles pequeños */
+    color: #555;
+    margin: 5px 0;
 }

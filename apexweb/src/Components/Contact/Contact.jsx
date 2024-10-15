@@ -18,7 +18,11 @@ function Contact() {
   return (
     <>
       <Container className='mt-3'>
-        <h3 className='titulo'>¡Escribinos! brindamos planes de entrenamiento 100% personalizado.</h3>
+        <h3 className='titulo'>¡Escribinos! brindamos planes de entrenamiento 100% personalizados.</h3>
+        <p className='parrafo'>
+          Estamos comprometidos en ofrecerte el plan de entrenamiento perfecto que se adapte a tus objetivos y necesidades. 
+          Contáctanos para obtener más información sobre nuestros horarios y entrenadores.
+        </p> {/* Descripción agregada aquí */}
       </Container>
 
       {/* Primer Botón */}
@@ -63,7 +67,7 @@ function Contact() {
             <h4 className='titulo'>Horarios</h4>
           </div>
           <div className='contenedor-horarios'>
-            <p className='parrafo'>🔼 Lunes a Viernes de 15:00 a 19:00 hs.</p>            
+            <p className='parrafo'>🔼 Lunes y Viernes de 15:00 a 19:00 hs.</p>            
             <p className='parrafo'>🔼 Martes y Jueves de 16:00 a 18:00 hs.</p>
             <p className='parrafo'>🔼 Miércoles de 16:00 a 19:00 hs.</p>
           </div>
@@ -92,21 +96,6 @@ function Contact() {
       </Container>
       <Collapse in={open2}>
         <div id="example-collapse-text-2">
-          <Card border="primary" style={{ width: '100%' }}>
-            <Card.Header>Perfil Coach</Card.Header>
-            <Card.Body>
-              <Card.Title className='titulo titulo-contact'>Prof. Educación Física</Card.Title>
-              <Card.Text className='parrafo'>
-                Más allá de la fuerza nivel 1 y 2.<br/>
-                Métodos y programas de entrenamiento.<br/>
-                Mí forma de planificar de Ezequiel Costa.<br/>
-                Instructorado de fuerza.<br/>
-                Planificación de fuerza nivel 1 y 2.<br/>
-                Personal trainer del equipo high fitness.<br/>
-                Workshop de powerlifting de JM.<br/>
-              </Card.Text>
-            </Card.Body>
-          </Card>
           <div className='icono-horario'>
             <FontAwesomeIcon icon={faCalendarDays} size="2x" className='time-icon' />
             <h4 className='titulo'>Horarios</h4>
@@ -141,21 +130,6 @@ function Contact() {
       </Container>
       <Collapse in={open3}>
         <div id="example-collapse-text-3">
-          <Card border="primary" style={{ width: '100%' }}>
-            <Card.Header>Perfil Coach</Card.Header>
-            <Card.Body>
-              <Card.Title className='titulo titulo-contact'>Prof. Educación Física</Card.Title>
-              <Card.Text className='parrafo'>
-                Más allá de la fuerza nivel 1 y 2.<br/>
-                Métodos y programas de entrenamiento.<br/>
-                Mí forma de planificar de Ezequiel Costa.<br/>
-                Instructorado de fuerza.<br/>
-                Planificación de fuerza nivel 1 y 2.<br/>
-                Personal trainer del equipo high fitness.<br/>
-                Workshop de powerlifting de JM.<br/>
-              </Card.Text>
-            </Card.Body>
-          </Card>
           <div className='icono-horario'>
             <FontAwesomeIcon icon={faCalendarDays} size="2x" className='time-icon' />
             <h4 className='titulo'>Horarios</h4>
@@ -188,21 +162,6 @@ function Contact() {
       </Container>
       <Collapse in={open4}>
         <div id="example-collapse-text-4">
-          <Card border="primary" style={{ width: '100%' }}>
-            <Card.Header>Perfil Coach</Card.Header>
-            <Card.Body>
-              <Card.Title className='titulo titulo-contact'>Prof. Educación Física</Card.Title>
-              <Card.Text className='parrafo'>
-                Más allá de la fuerza nivel 1 y 2.<br/>
-                Métodos y programas de entrenamiento.<br/>
-                Mí forma de planificar de Ezequiel Costa.<br/>
-                Instructorado de fuerza.<br/>
-                Planificación de fuerza nivel 1 y 2.<br/>
-                Personal trainer del equipo high fitness.<br/>
-                Workshop de powerlifting de JM.<br/>
-              </Card.Text>
-            </Card.Body>
-          </Card>
           <div className='icono-horario'>
             <FontAwesomeIcon icon={faCalendarDays} size="2x" className='time-icon' />
             <h4 className='titulo'>Horarios</h4>
@@ -210,7 +169,6 @@ function Contact() {
           <div className='contenedor-horarios'>
             <p className='parrafo'>🔼 Lunes de 20:00 a 22:00 hs.</p>
             <p className='parrafo'>🔼 Martes y Jueves 18:00 a 23:00 hs.</p>
-
           </div>
         </div>
       </Collapse>

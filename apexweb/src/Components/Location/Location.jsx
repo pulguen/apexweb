@@ -8,7 +8,7 @@ function Contact() {
   return (
     <>
       <Container className='mt-4 mb-3'>
-        <h3 className='titulo'>¿Dónde estamos? vení a conocernos.</h3>
+        <h3 className='titulo'>¿Dónde estamos? vení a conocernos y entrená con nosotros!.</h3>
         
         <p className='parrafo'>
           <FontAwesomeIcon icon={faLocationDot} size='2x' className='location-icon' /> 

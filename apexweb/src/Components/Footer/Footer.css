@@ -11,7 +11,7 @@
 
 .logotipo-footer {
     font-size: 28pt;
-    color: var(--ligth-color);
+    color: var(--light-color);
     font-weight: 700;
     margin-top: 10px; /* Espacio entre el logo y el texto */
 }
@@ -43,5 +43,5 @@ hr.border-light {
 
 .pie{
     font-size: var(--tamaño-fuente);
-    color: var(--ligth-color);
+    color: var(--light-color);
 }
