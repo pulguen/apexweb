@@ -8,6 +8,6 @@
 .logotipo {
     font-size: var(--font-size);
     font-weight: 800;
-    padding-top: 6px;
+    padding-top: 3px;
     color: var(--primary-color);
   }
