@@ -52,13 +52,10 @@ function Contact() {
             <Card.Body>
               <Card.Title className='titulo titulo-contact'>Prof. Educación Física</Card.Title>
               <Card.Text className='parrafo'>
-                Más allá de la fuerza nivel 1 y 2.<br/>
-                Métodos y programas de entrenamiento.<br/>
-                Mí forma de planificar de Ezequiel Costa.<br/>
-                Instructorado de fuerza.<br/>
-                Planificación de fuerza nivel 1 y 2.<br/>
-                Personal trainer del equipo high fitness.<br/>
-                Workshop de powerlifting de JM.<br/>
+                • Entrenador de Fuerza (CPC 1 y 2)<br/>
+                • Entrenador de Levantamiento olimpico<br/>
+                • Hiit<br/>
+                • Rehabilitación y salud<br/>                
               </Card.Text>
             </Card.Body>
           </Card>
@@ -96,6 +93,21 @@ function Contact() {
       </Container>
       <Collapse in={open2}>
         <div id="example-collapse-text-2">
+        <Card border="primary" style={{ width: '100%' }}>
+            <Card.Header>Perfil Coach</Card.Header>
+            <Card.Body>
+              <Card.Title className='titulo titulo-contact'>Prof. Educación Física</Card.Title>
+              <Card.Text className='parrafo'>
+                • Más allá de la fuerza nivel 1 y 2.<br/>
+                • Métodos y programas de entrenamiento.<br/>
+                • Mí forma de planificar de Ezequiel Costa.<br/>
+                • Instructorado de fuerza.<br/>
+                • Planificación de fuerza nivel 1 y 2.<br/>
+                • Personal trainer del equipo high fitness.<br/>
+                • Workshop de powerlifting de JM.<br/>
+              </Card.Text>
+            </Card.Body>
+          </Card>
           <div className='icono-horario'>
             <FontAwesomeIcon icon={faCalendarDays} size="2x" className='time-icon' />
             <h4 className='titulo'>Horarios</h4>
@@ -130,6 +142,21 @@ function Contact() {
       </Container>
       <Collapse in={open3}>
         <div id="example-collapse-text-3">
+        <Card border="primary" style={{ width: '100%' }}>
+            <Card.Header>Perfil Coach</Card.Header>
+            <Card.Body>
+              <Card.Title className='titulo titulo-contact'>Prof. Educación Física</Card.Title>
+              <Card.Text className='parrafo'>
+                • Personal Trainer - Fuerza y Potencia<br/>
+                • Congreso de Ciencia de la motricidad humana<br/>
+                • Planificación, programación y periodización del entrenamiento de fuerza e hipertrofia<br/>
+                • Suplementación Deportiva<br/>
+                • Fuerza, técnica y programación de los básicos<br/>
+                •	Hockey - Planificación y Ejercicios para Pre Temporada<br/>
+                •	Planificación del entrenamiento y la Actividad Física del Macrociclo a la Sesión<br/>
+                </Card.Text>
+            </Card.Body>
+          </Card>
           <div className='icono-horario'>
             <FontAwesomeIcon icon={faCalendarDays} size="2x" className='time-icon' />
             <h4 className='titulo'>Horarios</h4>

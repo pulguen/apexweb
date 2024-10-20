@@ -1,5 +1,3 @@
-@import url("https://use.typekit.net/mim6fmu.css");
-
 * {
     box-sizing: border-box;   
     margin: 0;
@@ -7,7 +5,7 @@
 }
 
 :root {
-    --tamaño-fuente: 1rem; /* Ajustado a rem */
+    --tamaño-fuente: 1rem;
     --primary-color: #333366;
     --dark-color: #330000;
     --light-color: #FFEEE1;
@@ -15,7 +13,7 @@
 
 .App {
     font-family: 'Ofelia Display', sans-serif;
-    max-width: 100%; /* Usa el 100% del ancho disponible */
+    max-width: 100%;
     margin: 0 auto;
     padding: 0 15px;
     color: var(--primary-color);
@@ -23,22 +21,22 @@
 
 @media (min-width: 576px) {
     .App {
-        max-width: 500px; /* Limita el ancho en pantallas más grandes */
+        max-width: 500px;
     }
 }
 
 a {
     color: var(--primary-color);
-    text-decoration: underline; /* Subraya los enlaces para mayor accesibilidad */
+    text-decoration: underline;
 }
 
 a:hover {
-    color: var(--dark-color); /* Cambia el color al pasar el mouse */
-    text-decoration: none; /* Elimina el subrayado en hover */
+    color: var(--dark-color);
+    text-decoration: none;
 }
 
 .logotipo {
-    font-size: 1.25rem; /* Ajustado para que sea más pequeño y adecuado */
+    font-size: 1.25rem;
     font-weight: 800;
     padding-top: 6px;
     color: var(--primary-color);
@@ -48,19 +46,18 @@ a:hover {
     font-size: 14pt;
     font-weight: 700;
     margin-left: 10px;
-    color: var(--primary-color); /* Color principal */
+    color: var(--primary-color);
 }
 
 .parrafo {
-    font-size: 1rem; /* Tamaño adecuado para el cuerpo del texto */
+    font-size: 1rem;
     font-weight: 400;
     margin-left: 10px;
     color: #555;
 }
 
-/* Detalle de tarifas (en el componente Tarifas) */
 .detalle-tarifas {
-    font-size: 0.85rem; /* Tamaño ajustado para los detalles pequeños */
+    font-size: 0.85rem;
     color: #555;
     margin: 5px 0;
 }

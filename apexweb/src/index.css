@@ -1,13 +1,16 @@
-
-@import url("https://use.typekit.net/mim6fmu.css");
-
 body {
-  font-family: ofelia-display, sans-serif;
+  font-family: 'Ofelia Display', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
 }
+
+@font-face {
+  font-family: 'Ofelia Display';
+  src: url('https://use.typekit.net/mim6fmu.css');
+  font-display: swap;
+}
+
