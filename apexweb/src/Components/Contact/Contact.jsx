@@ -189,6 +189,16 @@ function Contact() {
       </Container>
       <Collapse in={open4}>
         <div id="example-collapse-text-4">
+        <Card border="primary" style={{ width: '100%' }}>
+            <Card.Header>Perfil Coach</Card.Header>
+            <Card.Body>
+              <Card.Title className='titulo titulo-contact'>Prof. Educación Física</Card.Title>
+              <Card.Text className='parrafo'>
+              Hola, soy Leandro, profesor de Educación física y Coach en Apex desde Febrero de 2023. Realice cursos de "Entrenamiento de Fuerza", "Nutrición Deportiva", "Personal Trainer" entre otros. Tambien cuento con planificaciónes y seguimientos online, y entrenamiento para adultos mayores. 
+              El camino de la fuerza también es el camino a una vida más saludable. Súmate a entrenar con nosotros.
+                </Card.Text>
+            </Card.Body>
+          </Card>
           <div className='icono-horario'>
             <FontAwesomeIcon icon={faCalendarDays} size="2x" className='time-icon' />
             <h4 className='titulo'>Horarios</h4>
