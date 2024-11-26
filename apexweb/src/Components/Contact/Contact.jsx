@@ -14,6 +14,7 @@ function Contact() {
   const [open2, setOpen2] = useState(false);
   const [open3, setOpen3] = useState(false);
   const [open4, setOpen4] = useState(false);
+  const [open5, setOpen5] = useState(false);
 
   return (
     <>
@@ -114,8 +115,6 @@ function Contact() {
           </div>
           <div className='contenedor-horarios'>
             <p className='parrafo'>🔼 Lunes a Viernes de 8:00 a 12:00 hs.</p>
-            <p className='parrafo'>🔼 Miércoles de 20:00 a 22:00 hs.</p>
-            <p className='parrafo'>🔼 Viernes de 20:00 a 23:00 hs.</p>
           </div>
         </div>
       </Collapse>
@@ -209,6 +208,47 @@ function Contact() {
           </div>
         </div>
       </Collapse>
+            {/* Quinto Botón */}
+            <Container className='mt-1 d-flex align-items-center'>
+        <Button className='btn-wpp'
+          variant="outline-primary" 
+          href="https://wa.me/54294677202" 
+          target="_blank" 
+          rel="noopener noreferrer"
+        >
+          <FontAwesomeIcon icon={faWhatsapp} size="1x" className='wpp-icon' />
+          <span className='wpp-text'>Paula Garcia</span>
+        </Button>
+        <Button 
+          onClick={() => setOpen5(!open5)}
+          aria-controls="example-collapse-text-4"
+          aria-expanded={open5}
+          className='btn-link'
+          variant="link">
+          +info
+        </Button>
+      </Container>
+      <Collapse in={open5}>
+        <div id="example-collapse-text-4">
+        <Card border="primary" style={{ width: '100%' }}>
+            <Card.Header>Perfil Coach</Card.Header>
+            <Card.Body>
+              <Card.Title className='titulo titulo-contact'>Prof. Educación Física</Card.Title>
+              <Card.Text className='parrafo'>
+              Hola, soy Paula, profesora de Educación física.
+                </Card.Text>
+            </Card.Body>
+          </Card>
+          <div className='icono-horario'>
+            <FontAwesomeIcon icon={faCalendarDays} size="2x" className='time-icon' />
+            <h4 className='titulo'>Horarios</h4>
+          </div>
+          <div className='contenedor-horarios'>
+            <p className='parrafo'>🔼 Miércoles y Viernes 20:00 a 22:00 hs.</p>
+          </div>
+        </div>
+      </Collapse>
+      
     </>
   );
 }
