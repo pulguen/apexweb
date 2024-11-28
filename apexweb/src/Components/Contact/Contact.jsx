@@ -235,7 +235,12 @@ function Contact() {
             <Card.Body>
               <Card.Title className='titulo titulo-contact'>Prof. Educación Física</Card.Title>
               <Card.Text className='parrafo'>
-              Hola, soy Paula, profesora de Educación física.
+              Hola, soy Paula, profesora de Educación física.<br/>
+              • Coach de POWERLIFTING.<br/>
+              • Entrenadora de fuerza aplicada al rendimiento deportivo, la salud, la rehabilitación y la estética.<br/>
+              • Entrenadora de halterofilia.<br/>
+              • Personal trainer.<br/>
+              • Atleta de POWERLIFTING.<br/>
                 </Card.Text>
             </Card.Body>
           </Card>
