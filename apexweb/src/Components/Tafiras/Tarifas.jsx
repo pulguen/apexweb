@@ -16,17 +16,17 @@ export default function Tarifas() {
         <Container>
           <div className="tarifa-item d-flex justify-content-between align-items-center mb-3 mx-4">
             <p className="dias">X4</p>
-            <p className="semana">DIAS POR SEMANA</p>
+            <p className="semana">DÍAS POR SEMANA</p>
             <p className="precio">$27.000</p>
           </div>
           <div className="tarifa-item d-flex justify-content-between align-items-center mb-3 mx-4">
             <p className="dias">X3</p>
-            <p className="semana">DIAS POR SEMANA</p>
+            <p className="semana">DÍAS POR SEMANA</p>
             <p className="precio">$26.000</p>
           </div>
           <div className="tarifa-item d-flex justify-content-between align-items-center mb-3 mx-4">
             <p className="dias">X2</p>
-            <p className="semana">DIAS POR SEMANA</p>
+            <p className="semana">DÍAS POR SEMANA</p>
             <p className="precio">$25.000</p>
           </div>
         </Container>

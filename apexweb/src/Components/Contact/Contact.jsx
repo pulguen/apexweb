@@ -12,7 +12,6 @@ function Contact() {
   // Define un estado para cada collapse
   const [open1, setOpen1] = useState(false);
   const [open2, setOpen2] = useState(false);
-  const [open3, setOpen3] = useState(false);
   const [open4, setOpen4] = useState(false);
   const [open5, setOpen5] = useState(false);
 
@@ -115,53 +114,6 @@ function Contact() {
           </div>
           <div className='contenedor-horarios'>
             <p className='parrafo'>🔼 Lunes a Viernes de 8:00 a 12:00 hs.</p>
-          </div>
-        </div>
-      </Collapse>
-
-      {/* Tercer Botón */}
-      <Container className='mt-1 d-flex align-items-center'>
-        <Button className='btn-wpp'
-          variant="outline-primary" 
-          href="https://wa.me/542942645512" 
-          target="_blank" 
-          rel="noopener noreferrer"
-        >
-          <FontAwesomeIcon icon={faWhatsapp} size="1x" className='wpp-icon' />
-          <span className='wpp-text'>Maximiliano Flores</span>
-        </Button>
-        <Button 
-          onClick={() => setOpen3(!open3)}
-          aria-controls="example-collapse-text-3"
-          aria-expanded={open3}
-          className='btn-link'
-          variant="link">
-          +info
-        </Button>
-      </Container>
-      <Collapse in={open3}>
-        <div id="example-collapse-text-3">
-        <Card border="primary" style={{ width: '100%' }}>
-            <Card.Header>Perfil Coach</Card.Header>
-            <Card.Body>
-              <Card.Title className='titulo titulo-contact'>Prof. Educación Física</Card.Title>
-              <Card.Text className='parrafo'>
-                • Personal Trainer - Fuerza y Potencia<br/>
-                • Congreso de Ciencia de la motricidad humana<br/>
-                • Planificación, programación y periodización del entrenamiento de fuerza e hipertrofia<br/>
-                • Suplementación Deportiva<br/>
-                • Fuerza, técnica y programación de los básicos<br/>
-                •	Hockey - Planificación y Ejercicios para Pre Temporada<br/>
-                •	Planificación del entrenamiento y la Actividad Física del Macrociclo a la Sesión<br/>
-                </Card.Text>
-            </Card.Body>
-          </Card>
-          <div className='icono-horario'>
-            <FontAwesomeIcon icon={faCalendarDays} size="2x" className='time-icon' />
-            <h4 className='titulo'>Horarios</h4>
-          </div>
-          <div className='contenedor-horarios'>
-            <p className='parrafo'>🔼 Lunes, Miércoles y Viernes de 13:00 a 15:00 hs.</p>
           </div>
         </div>
       </Collapse>
