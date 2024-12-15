@@ -6,11 +6,11 @@ export default function Tarifas() {
     return (
       <>
         <Container className="mt-3 text-center">
-          <h2 className="titulo">Nuestras Tarifas 2024</h2>
+          <h2 className="titulo">Nuestras Tarifas 2025</h2>
         </Container>
 
         <Container className="mt-2 text-center">
-          <p className="parrafo">Diciembre - Enero - Febrero</p>
+          <p className="parrafo">Enero - Febrero</p>
         </Container>
 
         <Container>
