@@ -23,6 +23,7 @@ function Contact() {
           Estamos comprometidos en ofrecerte el plan de entrenamiento perfecto que se adapte a tus objetivos y necesidades. 
           Contáctanos para obtener más información sobre nuestros horarios y entrenadores.
         </p> {/* Descripción agregada aquí */}
+        <p className='parrafo'>• Horarios Enero</p>
       </Container>
 
       {/* Primer Botón */}
@@ -64,9 +65,7 @@ function Contact() {
             <h4 className='titulo'>Horarios</h4>
           </div>
           <div className='contenedor-horarios'>
-            <p className='parrafo'>🔼 Lunes y Viernes de 15:00 a 19:00 hs.</p>            
-            <p className='parrafo'>🔼 Martes y Jueves de 16:00 a 18:00 hs.</p>
-            <p className='parrafo'>🔼 Miércoles de 16:00 a 19:00 hs.</p>
+            <p className='parrafo'>🔼 Lunes, miercoles y Viernes de 15:00 a 20:00 hs.</p>            
           </div>
         </div>
       </Collapse>
@@ -155,8 +154,8 @@ function Contact() {
             <h4 className='titulo'>Horarios</h4>
           </div>
           <div className='contenedor-horarios'>
-            <p className='parrafo'>🔼 Lunes de 20:00 a 22:00 hs.</p>
-            <p className='parrafo'>🔼 Martes y Jueves 18:00 a 23:00 hs.</p>
+            <p className='parrafo'>🔼 Lunes y Viernes de 20:00 a 23:00 hs.</p>
+            <p className='parrafo'>🔼 Martes y Jueves de 19:00 a 23:00 hs.</p>
           </div>
         </div>
       </Collapse>
@@ -201,7 +200,7 @@ function Contact() {
             <h4 className='titulo'>Horarios</h4>
           </div>
           <div className='contenedor-horarios'>
-            <p className='parrafo'>🔼 Miércoles y Viernes 20:00 a 22:00 hs.</p>
+            <p className='parrafo'>🔼 Lunes, Miércoles y Viernes de 20:00 a 22:00 hs.</p>
           </div>
         </div>
       </Collapse>
