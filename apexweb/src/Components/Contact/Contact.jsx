@@ -163,7 +163,7 @@ function Contact() {
             <Container className='mt-1 d-flex align-items-center'>
         <Button className='btn-wpp'
           variant="outline-primary" 
-          href="https://wa.me/54294677202" 
+          href="https://wa.me/542942657202" 
           target="_blank" 
           rel="noopener noreferrer"
         >
