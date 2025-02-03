@@ -10,7 +10,7 @@ export default function Tarifas() {
         </Container>
 
         <Container className="mt-2 text-center">
-          <p className="parrafo">Enero - Febrero</p>
+          <p className="parrafo">Febrero - (Marzo actualización)</p>
         </Container>
 
         <Container>

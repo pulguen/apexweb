@@ -40,7 +40,7 @@ function Footer() {
         <hr className="border-light" />
         <Row>
           <Col className="text-center">
-            <p className="mb-0 pie">&copy; 2024 APEX. Todos los derechos reservados.</p>
+            <p className="mb-0 pie">&copy; 2025 APEX. Todos los derechos reservados.</p>
             <i className="mb-0 pie">by Taller de Otto.</i>
           </Col>
         </Row>
