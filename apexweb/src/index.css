@@ -7,10 +7,3 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
 }
-
-@font-face {
-  font-family: 'Ofelia Display';
-  src: url('https://use.typekit.net/mim6fmu.css');
-  font-display: swap;
-}
-

@@ -10,24 +10,24 @@ export default function Tarifas() {
         </Container>
 
         <Container className="mt-2 text-center">
-          <p className="parrafo">Febrero - (Marzo actualización)</p>
+          <p className="parrafo">Marzo - Junio - Julio</p>
         </Container>
 
         <Container>
           <div className="tarifa-item d-flex justify-content-between align-items-center mb-3 mx-4">
             <p className="dias">X4</p>
             <p className="semana">DÍAS POR SEMANA</p>
-            <p className="precio">$27.000</p>
+            <p className="precio">$34.000</p>
           </div>
           <div className="tarifa-item d-flex justify-content-between align-items-center mb-3 mx-4">
             <p className="dias">X3</p>
             <p className="semana">DÍAS POR SEMANA</p>
-            <p className="precio">$26.000</p>
+            <p className="precio">$32.000</p>
           </div>
           <div className="tarifa-item d-flex justify-content-between align-items-center mb-3 mx-4">
             <p className="dias">X2</p>
             <p className="semana">DÍAS POR SEMANA</p>
-            <p className="precio">$25.000</p>
+            <p className="precio">$30.000</p>
           </div>
         </Container>
 

@@ -23,7 +23,7 @@ function Contact() {
           Estamos comprometidos en ofrecerte el plan de entrenamiento perfecto que se adapte a tus objetivos y necesidades. 
           Contáctanos para obtener más información sobre nuestros horarios y entrenadores.
         </p> {/* Descripción agregada aquí */}
-        <p className='parrafo'>• Horarios Febrero</p>
+        <p className='parrafo'>• Horarios Marzo</p>
       </Container>
 
       {/* Primer Botón */}
