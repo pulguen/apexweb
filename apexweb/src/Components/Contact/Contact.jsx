@@ -68,7 +68,7 @@ function Contact() {
             <h4 className='titulo'>Horarios</h4>
           </div>
           <div className='contenedor-horarios'>
-            <p className='parrafo'>🔼 Lunes a Viernes de 8:00 a 12:00 hs.</p>
+            <p className='parrafo'>🔼 Lunes a Viernes de 8:00 a 11:00 hs.</p>
           </div>
         </div>
       </Collapse>
