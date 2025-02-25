@@ -155,7 +155,7 @@ function Contact() {
           </div>
           <div className='contenedor-horarios'>
             <p className='parrafo'>🔼 Lunes y Viernes de 20:00 a 23:00 hs.</p>
-            <p className='parrafo'>🔼 Martes y Jueves de 19:00 a 23:00 hs.</p>
+            <p className='parrafo'>🔼 Martes y Jueves de 18:00 a 23:00 hs.</p>
           </div>
         </div>
       </Collapse>
