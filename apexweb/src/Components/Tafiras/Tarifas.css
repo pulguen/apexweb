@@ -1,6 +1,6 @@
 /* Tarjetas para las tarifas */
 .tarifa-item {
-    background-color:var(--light-color);
+    background-color: var(--light-color);
     padding: 15px;
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra suave */
@@ -8,6 +8,7 @@
     display: flex; /* Usamos flexbox para alineación horizontal */
     justify-content: space-between; /* Distribuye espacio entre los elementos */
     align-items: center; /* Alineación centrada verticalmente */
+    text-align: center; /* Asegura alineación consistente */
 }
 
 /* Ajustar el espaciado y tipografía */
@@ -20,20 +21,24 @@
     font-weight: 700;
     font-size: 1.2rem;
     color: var(--primary-color);
+    flex: 0.5; /* Ajusta el ancho para que no se desplace */
+    text-align: left; /* Alineado a la izquierda */
 }
 
 .semana {
     font-size: 0.85rem;
     font-weight: 400;
     color: #666;
-    text-align: center; /* Centrar el texto de "DIAS POR SEMANA" */
-    flex: 1; /* Asegura que ocupe más espacio central */
+    text-align: center; /* Centrar el texto */
+    flex: 2; /* Se asegura de que ocupe más espacio y quede bien centrado */
 }
 
 .precio {
     font-weight: 700;
     font-size: 1.2rem;
     color: #333;
+    flex: 0.5; /* Ajusta el ancho para mantener alineación */
+    text-align: right; /* Alineado a la derecha */
 }
 
 /* Detalles de las tarifas */

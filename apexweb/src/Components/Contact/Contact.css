@@ -1,91 +1,113 @@
+/* ✅ ESTILOS GENERALES */
+.entrenador-item {
+    padding: 12px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s ease;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.entrenador-item:hover {
+    transform: scale(1.02);
+}
+
+/* ✅ BOTONES DE WHATSAPP (Con más separación entre icono y texto) */
 .btn-wpp {
-    color: var(--primary-color); /* Color de las letras */
-    border-color: var(--dark-color);
-    width: 250px; /* Ancho fijo para todos los botones */
+    width: 230px;
+    font-size: 1rem;
     display: flex;
     align-items: center;
     justify-content: flex-start;
-    padding: 10px 15px; /* Mejor padding interno */
-    margin: 10px;
-    border-radius: 5px; /* Bordes redondeados */
-    background-color: transparent;
-    transition: background-color 0.3s ease, transform 0.2s ease, color 0.3s ease; /* Transiciones suaves */
-}
-
-.btn-wpp:hover {
-    background-color: rgba(0, 0, 0, 0.05); /* Ligeramente más oscuro en hover */
-    transform: translateY(-3px); /* Efecto de elevación al hacer hover */
-    color: var(--primary-color); /* Cambiar color de texto a color principal en hover */
 }
 
 .wpp-icon {
-    margin-right: 10px;
-    font-size: 1.2rem; /* Aumentar tamaño del ícono */
-    transition: color 0.3s ease; /* Transición suave en el color del ícono */
-}
-
-.btn-wpp:hover .wpp-icon {
-    color: var(--primary-color); /* Cambiar el color del ícono a color principal en hover */
+    margin-right: 12px; /* Aumentamos la separación entre icono y texto */
+    font-size: 1.4rem;
 }
 
 .btn-link {
-    margin-left: 10px; /* Más separación entre botón y enlace */
-    color: var(--primary-color);
-    font-size: 1rem; /* Tamaño consistente */
-    padding: 0;
-    text-decoration: underline; /* Subrayado para indicar enlace */
+    font-size: 0.9rem;
 }
 
-.btn-link:hover {
-    color: var(--dark-color); /* Cambia de color en hover */
-    text-decoration: none; /* Quita el subrayado en hover */
+/* ✅ TARJETA DEL PERFIL */
+.perfil-card {
+    background-color: var(--light-color);
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
 
+/* ✅ ICONO DE HORARIO + TÍTULO (En la misma línea) */
 .icono-horario {
     display: flex;
     align-items: center;
-    margin-left: 0; /* Alinear el icono sin margen extra */
-    margin-top: 10px;
+    justify-content: flex-start;
+    margin-top: 15px;
 }
 
 .time-icon {
+    font-size: 1.5rem;
+    color: var(--primary-color);
     margin-right: 10px;
-    font-size: 1.5rem; /* Tamaño del ícono más grande */
-    color: var(--primary-color); /* Asegura visibilidad */
 }
 
-.contenedor-horarios {
-    padding: 15px 20px; /* Padding más amplio */
-    margin-top: 10px; /* Añade margen superior */
-    background-color: #f8f9fa; /* Fondo claro para destacar */
-    border-left: 3px solid var(--primary-color); /* Borde decorativo */
-    border-radius: 5px; /* Bordes redondeados */
-}
-
-@media (max-width: 576px) {
-    .btn-wpp {
-        width: 100%; /* Botones a 100% en pantallas pequeñas */
-        justify-content: center; /* Centrar contenido en móviles */
-    }
-
-    .btn-link {
-        margin-left: 0; /* Eliminar margen lateral en pantallas pequeñas */
-        margin-top: 10px; /* Separación en pantallas pequeñas */
-    }
-
-    .contenedor-horarios {
-        padding: 10px; /* Reducir el padding en móviles */
-        margin-top: 5px; /* Menos margen en pantallas pequeñas */
-    }
-}
-
-.collapse {
-    transition: height 0.3s ease-in-out; /* Transición suave para los collapses */
-}
-
-.no-cupos-banner {
-    font-size: 0.9rem;
-    color: #d9534f; /* Un rojo suave para destacar la alerta */
+.horarios-titulo {
+    font-size: 1.2rem;
     font-weight: bold;
-  }
-  
+    color: var(--primary-color);
+}
+
+/* ✅ HORARIOS COMO TABLA (Alineados a la izquierda) */
+.contenedor-horarios {
+    margin-top: 10px;
+    background-color: #f8f9fa;
+    border-radius: 8px;
+    padding: 12px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.horario-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #ddd;
+    font-size: 1rem;
+    font-weight: 600;
+    text-align: left; /* Alineación de todo el contenido a la izquierda */
+}
+
+.horario-item:last-child {
+    border-bottom: none;
+}
+
+/* ✅ TEXTOS DE HORARIOS ALINEADOS A LA IZQUIERDA */
+.dias {
+    flex: 2;
+    font-weight: 600;
+    color: var(--primary-color);
+    text-align: left;
+}
+
+.horas {
+    flex: 1.5;
+    font-weight: 500;
+    color: #555;
+    text-align: left;
+}
+
+.estado-cupo {
+    flex: 1;
+    font-weight: bold;
+    text-align: left; /* Asegura alineación a la izquierda */
+}
+
+/* ✅ COLORES DE DISPONIBILIDAD */
+.cupos-disponibles {
+    color: #198754;
+}
+
+.sin-cupos {
+    color: #dc3545;
+}
