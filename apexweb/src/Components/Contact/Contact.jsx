@@ -28,7 +28,7 @@ function Contact() {
       nombre: "Emanuel Sepulveda",
       whatsapp: "https://wa.me/542942348241",
       horarios: [
-        { dia: "Lunes, Miércoles y Viernes", horas: "16 a 19 hs", cupos: "Sin cupos" },
+        { dia: "Lunes, Miércoles y Viernes", horas: "15 a 19 hs", cupos: "Cupos disponibles" },
         { dia: "Martes y Jueves", horas: "15 a 18 hs", cupos: "Cupos disponibles" }
       ],
       perfil: [
@@ -69,7 +69,7 @@ function Contact() {
     {
       nombre: "Paula Garcia",
       whatsapp: "https://wa.me/542942657202",
-      horarios: [{ dia: "Lunes, Miércoles y Viernes", horas: "20 a 22 hs", cupos: "Sin cupos" }],
+      horarios: [{ dia: "Lunes, Miércoles y Viernes", horas: "20 a 22 hs", cupos: "Cupos disponibles" }],
       perfil: [
         "Coach de Powerlifting",
         "Entrenadora de Fuerza y Rehabilitación",
