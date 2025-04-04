@@ -65,7 +65,7 @@ function Contact() {
         "Entrenamiento para adultos mayores"
       ],
       id: "Leandro"
-    },
+    },/*
     {
       nombre: "Paula Garcia",
       whatsapp: "https://wa.me/542942657202",
@@ -77,7 +77,7 @@ function Contact() {
         "Atleta de Powerlifting"
       ],
       id: "Paula"
-    }
+    }*/
   ];
 
   return (
@@ -87,7 +87,7 @@ function Contact() {
         Estamos comprometidos en ofrecerte el plan de entrenamiento perfecto que se adapte a tus objetivos y necesidades.
         Contáctanos para obtener más información sobre nuestros horarios y entrenadores.
       </p>
-      <p className="parrafo">• Horarios Marzo</p>
+      <p className="parrafo">• Horarios Abril</p>
 
       {coaches.map((coach) => (
         <Container key={coach.id} className="mt-3">
