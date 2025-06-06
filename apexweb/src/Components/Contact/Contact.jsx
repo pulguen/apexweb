@@ -86,8 +86,7 @@ function Contact() {
       <p className="parrafo">
         Estamos comprometidos en ofrecerte el plan de entrenamiento perfecto que se adapte a tus objetivos y necesidades.
         Contáctanos para obtener más información sobre nuestros horarios y entrenadores.
-      </p>
-      <p className="parrafo">• Horarios Abril</p>
+      </p>      
 
       {coaches.map((coach) => (
         <Container key={coach.id} className="mt-3">
@@ -136,10 +135,12 @@ function Contact() {
                   </div>
                 ))}
               </div>
-            </div>  
+            </div> 
+             
           </Collapse>
         </Container>
       ))}
+      <p className="parrafo">• Horarios <strong>JUNIO 2025</strong></p>
     </Container>
   );
 }

@@ -77,3 +77,48 @@
         font-size: 0.85rem;
     }
 }
+
+.badge-destacado {
+    display: inline-block;
+    margin-top: 4px;
+    font-size: 0.75rem;
+    color: #fff;
+    background-color: #4A5D23; /* Verde oliva oscuro */
+    padding: 3px 6px;
+    border-radius: 4px;
+    font-weight: 600;
+    animation: pulse 1.5s infinite ease-in-out;
+}
+
+/* Animación sutil para resaltar */
+@keyframes pulse {
+    0%, 100% { opacity: 1; }
+    50% { opacity: 0.6; }
+}
+
+.bloque-titulo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.titulo {
+    font-weight: 700;
+    color: var(--primary-color);
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    margin-bottom: 0.2rem;
+}
+
+.titulo .icono {
+    color: var(--primary-color);
+    font-size: 1.8rem;
+}
+
+.meses {
+    font-size: 1.1rem;
+    font-weight: 600;
+    margin: 0 0 10px 0;
+}
