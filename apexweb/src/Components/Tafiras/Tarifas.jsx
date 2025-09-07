@@ -19,7 +19,7 @@ export default function Tarifas() {
             <FontAwesomeIcon icon={faDollarSign} className="me-2 icono" />
             Tarifas 2025
           </h2>
-          <p className="parrafo meses">Junio - Julio - Agosto</p>
+          <p className="parrafo meses">Septiembre - Octubre - Noviembre</p>
         </div>
       </Container>
 
