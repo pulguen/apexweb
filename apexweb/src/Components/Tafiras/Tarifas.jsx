@@ -5,9 +5,9 @@ import { faDollarSign } from '@fortawesome/free-solid-svg-icons';
 import './Tarifas.css';
 
 const PLANES = [
-  { dias: 'X4', precio: 48000, destacado: true },
-  { dias: 'X3', precio: 46000, destacado: false },
-  { dias: 'X2', precio: 44000, destacado: false },
+  { dias: 'X4', precio: 52000, destacado: true },
+  { dias: 'X3', precio: 50000, destacado: false },
+  { dias: 'X2', precio: 48000, destacado: false },
 ];
 
 export default function Tarifas() {
@@ -17,9 +17,9 @@ export default function Tarifas() {
         <div className="bloque-titulo">
           <h2 className="titulo">
             <FontAwesomeIcon icon={faDollarSign} className="me-2 icono" />
-            Tarifas 2025
+            Tarifas
           </h2>
-          <p className="parrafo meses">Septiembre - Octubre - Noviembre</p>
+          <p className="parrafo meses"></p>
         </div>
       </Container>
 
