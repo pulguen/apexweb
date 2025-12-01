@@ -55,7 +55,7 @@ function Contact() {
       whatsapp: "https://wa.me/542942447165",
       horarios: [
         { dia: "Lunes y Viernes", horas: "20 a 23 hs", cupos: "Cupos disponibles" },
-        { dia: "Martes y Jueves", horas: "19 a 22 hs", cupos: "Cupos disponibles" }
+        { dia: "Martes y Jueves", horas: "19 a 23 hs", cupos: "Cupos disponibles" }
       ],
       perfil: [
         "Coach en Apex desde 2023",
