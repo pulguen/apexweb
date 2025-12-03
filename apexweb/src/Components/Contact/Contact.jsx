@@ -28,7 +28,8 @@ function Contact() {
       nombre: "Emanuel Sepulveda",
       whatsapp: "https://wa.me/542942348241",
       horarios: [
-        { dia: "Lunes a Viernes", horas: "15 a 19 hs", cupos: "Cupos disponibles" },
+        { dia: "Lunes, Miércoles y Viernes", horas: "15 a 20 hs", cupos: "Cupos disponibles" },
+        { dia: "Martes y Jueves", horas: "15 a 19 hs", cupos: "Cupos disponibles" },
       ],
       perfil: [
         "Entrenador de Fuerza (CPC 1 y 2)",
