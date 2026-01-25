@@ -1,5 +1,11 @@
-
 .location-icon {
-    margin-right: 8px; /* Espacio entre el ícono y el texto */
-    color: var(--primary-color); /* Asegúrate de que coincida con tu esquema de colores */
+  margin-right: 8px;
+  color: var(--accent-color);
+}
+
+.map-frame {
+  border-radius: var(--radius);
+  overflow: hidden;
+  box-shadow: var(--shadow);
+  border: 1px solid var(--border-color);
 }

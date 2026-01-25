@@ -1,4 +1,4 @@
-import { useState } from 'react';
+﻿import { useState } from 'react';
 import Container from 'react-bootstrap/Container';
 import Button from 'react-bootstrap/Button';
 import Collapse from 'react-bootstrap/Collapse';
@@ -84,7 +84,7 @@ function Contact() {
       <h3 className="titulo">¡Escribinos! brindamos planes de entrenamiento 100% personalizados.</h3>
       <p className="parrafo">
         Estamos comprometidos en ofrecerte el plan de entrenamiento perfecto que se adapte a tus objetivos y necesidades.
-        Contáctanos para obtener más información sobre nuestros horarios y entrenadores.
+        Contáctanos para obtener Más información sobre nuestros horarios y entrenadores.
       </p>      
 
       {coaches.map((coach) => (
@@ -139,9 +139,12 @@ function Contact() {
           </Collapse>
         </Container>
       ))}
-      <p className="parrafo">• Horarios <strong>Diciembre 2025</strong></p>
+      <p className="parrafo">• Horarios <strong>Verano 2026</strong></p>
     </Container>
   );
 }
 
 export default Contact;
+
+
+

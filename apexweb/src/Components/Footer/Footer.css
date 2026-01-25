@@ -1,47 +1,54 @@
+.bg-dark {
+  background-color: var(--dark-color) !important;
+}
+
 .contenedor-logo-footer {
-    display: flex;
-    align-items: center; /* Centrar horizontalmente */
-    justify-content: center; /* Centrar verticalmente */
-    text-align: center; /* Asegura que el texto del logotipo esté centrado */    
-    }
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  gap: 12px;
+}
 
 .logo-footer {
-    width: 80px;
+  width: 70px;
 }
 
 .logotipo-footer {
-    font-size: 28pt;
-    color: var(--light-color);
-    font-weight: 700;
-    margin-top: 10px; /* Espacio entre el logo y el texto */
+  font-size: 2rem;
+  color: var(--light-color);
+  font-weight: 700;
+  margin-top: 6px;
 }
 
 .titulo-footer {
-    font-weight: 500;
-    font-size: var(--tamaño-fuente);
-    margin: 0;
-    padding: 5px 0;
-    text-align: center; /* Asegura que el texto debajo también esté centrado */
+  font-weight: 500;
+  font-size: 1rem;
+  margin: 0;
+  padding: 5px 0;
+  text-align: center;
+  color: #e5e7eb;
 }
 
 .links-footer {
-    display: flex;
-    justify-content: center;
-    gap: 15px;
-    margin-top: 15px;
+  display: flex;
+  justify-content: center;
+  gap: 16px;
+  margin-top: 12px;
 }
 
 hr.border-light {
-    border-top: 1px solid #f8f9fa; /* Color del borde */
-    margin: 20px 0;
+  border-top: 1px solid #2b3446;
+  margin: 20px 0;
 }
 
-.titulo-redes-footer{
-    font-size: var(--tamaño-fuente);
-    font-weight: 300;
+.titulo-redes-footer {
+  font-size: 0.95rem;
+  font-weight: 400;
+  color: #e5e7eb;
 }
 
-.pie{
-    font-size: var(--tamaño-fuente);
-    color: var(--light-color);
+.pie {
+  font-size: 0.9rem;
+  color: #cbd5f5;
 }

@@ -1,4 +1,4 @@
-import React from 'react';
+﻿import React from 'react';
 import logo from './img/logo-secundary.png';
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
@@ -50,3 +50,5 @@ function Footer() {
 }
 
 export default Footer;
+
+

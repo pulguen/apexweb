@@ -1,4 +1,4 @@
-import React from 'react';
+﻿import React from 'react';
 import Container from 'react-bootstrap/esm/Container';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faDollarSign } from '@fortawesome/free-solid-svg-icons';
@@ -24,13 +24,18 @@ export default function Tarifas() {
       </Container>
 
       <Container>
+        <div className="tarifa-header d-flex justify-content-between align-items-center mx-4">
+          <p className="header-dias">DÍAS POR SEMANA</p>
+          <span className="header-spacer" aria-hidden="true"></span>
+          <p className="header-precio">PRECIO</p>
+        </div>
         {PLANES.map((plan) => (
           <div
             key={plan.dias}
             className="tarifa-item d-flex justify-content-between align-items-center mb-3 mx-4"
           >
             <p className="dias">{plan.dias}</p>
-            <p className="semana">DÍAS POR SEMANA</p>
+            <span className="semana-spacer" aria-hidden="true"></span>
             <div className="text-end">
               <p className="precio">${plan.precio.toLocaleString('es-AR')}</p>
               {plan.destacado && (
@@ -50,3 +55,5 @@ export default function Tarifas() {
     </>
   );
 }
+
+

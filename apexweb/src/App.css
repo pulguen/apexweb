@@ -1,4 +1,4 @@
-/*App.css*/
+﻿/*App.css*/
 * {
     box-sizing: border-box;   
     margin: 0;
@@ -6,34 +6,52 @@
 }
 
 :root {
-    --tamaño-fuente: 1rem;
-    --primary-color: #333366;
-    --dark-color: #330000;
-    --light-color: #FFEEE1;
+    --tamano-fuente: 1rem;
+    --primary-color: #1f2a44;
+    --dark-color: #0f172a;
+    --light-color: #f6f3ef;
+    --bg-color: #f8f7f4;
+    --surface-color: #ffffff;
+    --border-color: #e7e2da;
+    --muted-color: #6b7280;
+    --accent-color: #0f766e;
+    --shadow: 0 8px 24px rgba(15, 23, 42, 0.08);
+    --radius: 12px;
+    --content-max: 640px;
 }
 
 .App {
     font-family: 'Ofelia Display', sans-serif;
-    max-width: 100%;
+    max-width: var(--content-max);
     margin: 0 auto;
-    padding: 0 15px;
+    padding: 0 20px 48px;
     color: var(--primary-color);
 }
 
 @media (min-width: 576px) {
     .App {
-        max-width: 500px;
+        max-width: var(--content-max);
     }
+}
+
+.App > * {
+    margin-top: 32px;
+}
+
+.App > *:first-child {
+    margin-top: 0;
 }
 
 a {
     color: var(--primary-color);
-    text-decoration: underline;
+    text-decoration: none;
+    border-bottom: 1px solid transparent;
+    transition: color 0.2s ease, border-color 0.2s ease;
 }
 
 a:hover {
-    color: var(--dark-color);
-    text-decoration: none;
+    color: var(--accent-color);
+    border-bottom-color: var(--accent-color);
 }
 
 .logotipo {
@@ -44,21 +62,24 @@ a:hover {
 }
 
 .titulo {
-    font-size: 14pt;
+    font-size: 1.1rem;
     font-weight: 700;
-    margin-left: 10px;
+    margin: 0 0 8px;
     color: var(--primary-color);
 }
 
 .parrafo {
     font-size: 1rem;
     font-weight: 400;
-    margin-left: 10px;
-    color: #555;
+    margin: 0 0 12px;
+    color: var(--muted-color);
+    line-height: 1.6;
 }
 
 .detalle-tarifas {
     font-size: 0.85rem;
-    color: #555;
+    color: var(--muted-color);
     margin: 5px 0;
 }
+
+

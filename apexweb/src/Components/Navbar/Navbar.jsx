@@ -1,4 +1,4 @@
-import Container from 'react-bootstrap/Container';
+﻿import Container from 'react-bootstrap/Container';
 import Navbar from 'react-bootstrap/Navbar';
 import logo from './img/logo-primary.png';
 import './Navbar.css';
@@ -17,3 +17,4 @@ export default function CustomNav() {
     </Container>
   );
 }
+

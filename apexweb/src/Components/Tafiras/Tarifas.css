@@ -1,124 +1,194 @@
-/* Tarjetas para las tarifas */
 .tarifa-item {
-    background-color: var(--light-color);
-    padding: 15px;
-    border-radius: 8px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra suave */
-    transition: transform 0.2s ease;
-    display: flex; /* Usamos flexbox para alineación horizontal */
-    justify-content: space-between; /* Distribuye espacio entre los elementos */
-    align-items: center; /* Alineación centrada verticalmente */
-    text-align: center; /* Asegura alineación consistente */
+  background-color: var(--light-color);
+  padding: 14px 16px;
+  border-radius: var(--radius);
+  border: 1px solid var(--border-color);
+  box-shadow: 0 6px 16px rgba(15, 23, 42, 0.08);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
 }
 
-/* Ajustar el espaciado y tipografía */
-.dias, .semana, .precio {
-    margin: 0 15px; /* Margen lateral más grande */
-    padding: 5px 0; /* Padding vertical para centrar mejor */
+.tarifa-item:hover {
+  transform: translateY(-1px);
+  box-shadow: 0 10px 22px rgba(15, 23, 42, 0.12);
+}
+
+.tarifa-header {
+  margin: 0 1.5rem 6px;
+  padding: 0;
+  display: flex;
+  align-items: center;
+}
+
+.tarifa-header p {
+  margin: 0;
+}
+
+.header-dias {
+  flex: 0.6;
+  font-size: 0.75rem;
+  font-weight: 700;
+  color: var(--muted-color);
+  letter-spacing: 0.12em;
+  text-align: left;
+}
+
+.header-spacer {
+  flex: 2;
+}
+
+.header-precio {
+  flex: 0.7;
+  font-size: 0.75rem;
+  font-weight: 700;
+  color: var(--muted-color);
+  letter-spacing: 0.12em;
+  text-align: right;
+}
+
+.dias, .semana-spacer, .precio {
+  margin: 0 12px;
+  padding: 5px 0;
 }
 
 .dias {
-    font-weight: 700;
-    font-size: 1.2rem;
-    color: var(--primary-color);
-    flex: 0.5; /* Ajusta el ancho para que no se desplace */
-    text-align: left; /* Alineado a la izquierda */
+  font-weight: 700;
+  font-size: 1.2rem;
+  color: var(--primary-color);
+  flex: 0.6;
+  text-align: left;
 }
 
-.semana {
-    font-size: 0.85rem;
-    font-weight: 400;
-    color: #666;
-    text-align: center; /* Centrar el texto */
-    flex: 2; /* Se asegura de que ocupe más espacio y quede bien centrado */
+.semana-spacer {
+  flex: 2;
 }
 
 .precio {
-    font-weight: 700;
-    font-size: 1.2rem;
-    color: #333;
-    flex: 0.5; /* Ajusta el ancho para mantener alineación */
-    text-align: right; /* Alineado a la derecha */
+  font-weight: 800;
+  font-size: 1.5rem;
+  color: var(--primary-color);
+  text-align: right;
+  margin: 0;
 }
 
-/* Detalles de las tarifas */
 .detalle-tarifas {
-    font-size: 0.8rem;
-    color: #555;
-    margin: 5px 0;
+  font-size: 0.85rem;
+  color: var(--muted-color);
+  margin: 5px 0;
 }
 
-/* Título y texto principal */
 .titulo {
-    font-size: 1.3rem;
-    font-weight: 700;
-    color: var(--primary-color);
+  font-size: 1.2rem;
+  font-weight: 700;
+  color: var(--primary-color);
 }
 
 .parrafo {
-    font-size: 0.9rem;
-    font-weight: 400;
-    color: #555;
-}
-
-/* Mantener la disposición en línea en pantallas pequeñas */
-@media (max-width: 576px) {
-    .tarifa-item {
-        display: flex; /* Mantiene el layout flexbox */
-        flex-direction: row; /* Asegura que los elementos se mantengan en línea */
-        text-align: left; /* Alinear el texto a la izquierda en móviles */
-    }
-
-    .dias, .semana, .precio {
-        font-size: 0.9rem;
-    }
-
-    .parrafo, .detalle-tarifas {
-        font-size: 0.85rem;
-    }
+  font-size: 0.95rem;
+  font-weight: 400;
+  color: var(--muted-color);
 }
 
 .badge-destacado {
-    display: inline-block;
-    margin-top: 4px;
-    font-size: 0.75rem;
-    color: #fff;
-    background-color: #4A5D23; /* Verde oliva oscuro */
-    padding: 3px 6px;
-    border-radius: 4px;
-    font-weight: 600;
-    animation: pulse 1.5s infinite ease-in-out;
-}
-
-/* Animación sutil para resaltar */
-@keyframes pulse {
-    0%, 100% { opacity: 1; }
-    50% { opacity: 0.6; }
+  display: inline-block;
+  margin-top: 4px;
+  font-size: 0.75rem;
+  color: #fff;
+  background-color: #4A5D23;
+  padding: 4px 10px;
+  border-radius: 999px;
+  font-weight: 600;
+  letter-spacing: 0.02em;
 }
 
 .bloque-titulo {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 0;
 }
 
 .titulo {
-    font-weight: 700;
-    color: var(--primary-color);
-    display: flex;
-    align-items: center;
-    gap: 0.5rem;
-    margin-bottom: 0.2rem;
+  font-weight: 700;
+  color: var(--primary-color);
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  margin-bottom: 0.2rem;
 }
 
 .titulo .icono {
-    color: var(--primary-color);
-    font-size: 1.8rem;
+  color: var(--accent-color);
+  font-size: 1.6rem;
 }
 
 .meses {
-    font-size: 1.1rem;
-    font-weight: 600;
-    margin: 0 0 10px 0;
+  font-size: 1rem;
+  font-weight: 600;
+  margin: 0;
+  color: var(--muted-color);
+}
+
+.tarifa-item .text-end {
+  flex: 0.7;
+  min-width: 140px;
+  text-align: right;
+}
+
+@media (max-width: 576px) {
+  .tarifa-header {
+    margin: 0 1rem 4px;
+    padding: 0;
+    display: grid;
+    grid-template-columns: 1fr auto;
+    align-items: center;
+  }
+
+  .header-precio,
+  .header-dias {
+    font-size: 0.7rem;
+  }
+
+  .header-spacer {
+    display: none;
+  }
+
+  .tarifa-item {
+    display: grid;
+    grid-template-columns: 1fr auto;
+    gap: 4px 8px;
+    text-align: left;
+  }
+
+  .dias {
+    font-size: 1rem;
+    margin: 0;
+  }
+
+  .semana-spacer {
+    display: none;
+  }
+
+  .precio {
+    font-size: 1.25rem;
+  }
+
+  .parrafo, .detalle-tarifas {
+    font-size: 0.85rem;
+  }
+
+  .tarifa-item .text-end {
+    width: auto;
+    text-align: right !important;
+  }
+
+  .badge-destacado {
+    display: inline-flex;
+    align-items: center;
+    margin-top: 2px;
+  }
 }

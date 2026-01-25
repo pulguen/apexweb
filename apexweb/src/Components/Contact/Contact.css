@@ -1,113 +1,129 @@
-/* ✅ ESTILOS GENERALES */
 .entrenador-item {
-    padding: 12px;
-    border-radius: 8px;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-    transition: transform 0.2s ease;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
+  padding: 14px 16px;
+  border-radius: var(--radius);
+  border: 1px solid var(--border-color);
+  background-color: var(--surface-color);
+  box-shadow: var(--shadow);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 
 .entrenador-item:hover {
-    transform: scale(1.02);
+  transform: translateY(-1px);
+  box-shadow: 0 10px 22px rgba(15, 23, 42, 0.12);
 }
 
-/* ✅ BOTONES DE WHATSAPP (Con más separación entre icono y texto) */
 .btn-wpp {
-    width: 230px;
-    font-size: 1rem;
-    display: flex;
-    align-items: center;
-    justify-content: flex-start;
+  width: 230px;
+  font-size: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  border-color: var(--primary-color);
+  color: var(--primary-color);
+}
+
+.btn-wpp:hover {
+  background-color: var(--primary-color);
+  color: #fff;
 }
 
 .wpp-icon {
-    margin-right: 12px; /* Aumentamos la separación entre icono y texto */
-    font-size: 1.4rem;
+  margin-right: 12px;
+  font-size: 1.4rem;
 }
 
 .btn-link {
-    font-size: 0.9rem;
+  font-size: 0.9rem;
+  color: var(--accent-color);
+  text-decoration: none;
 }
 
-/* ✅ TARJETA DEL PERFIL */
+.btn-link:hover {
+  color: var(--primary-color);
+}
+
+.perfil-container {
+  margin-top: 12px;
+  display: grid;
+  gap: 12px;
+}
+
 .perfil-card {
-    background-color: var(--light-color);
-    padding: 15px;
-    border-radius: 8px;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  background-color: var(--surface-color);
+  border: 1px solid var(--border-color);
+  padding: 15px;
+  border-radius: var(--radius);
+  box-shadow: 0 6px 16px rgba(15, 23, 42, 0.06);
 }
 
-/* ✅ ICONO DE HORARIO + TÍTULO (En la misma línea) */
 .icono-horario {
-    display: flex;
-    align-items: center;
-    justify-content: flex-start;
-    margin-top: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  margin-top: 6px;
 }
 
 .time-icon {
-    font-size: 1.5rem;
-    color: var(--primary-color);
-    margin-right: 10px;
+  font-size: 1.4rem;
+  color: var(--primary-color);
+  margin-right: 10px;
 }
 
 .horarios-titulo {
-    font-size: 1.2rem;
-    font-weight: bold;
-    color: var(--primary-color);
+  font-size: 1.05rem;
+  font-weight: 700;
+  color: var(--primary-color);
+  margin: 0;
 }
 
-/* ✅ HORARIOS COMO TABLA (Alineados a la izquierda) */
 .contenedor-horarios {
-    margin-top: 10px;
-    background-color: #f8f9fa;
-    border-radius: 8px;
-    padding: 12px;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  margin-top: 8px;
+  background-color: var(--light-color);
+  border-radius: var(--radius);
+  padding: 12px;
+  border: 1px solid var(--border-color);
 }
 
 .horario-item {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    border-bottom: 1px solid #ddd;
-    font-size: 1rem;
-    font-weight: 600;
-    text-align: left; /* Alineación de todo el contenido a la izquierda */
+  display: grid;
+  grid-template-columns: 2fr 1.2fr 1fr;
+  gap: 8px;
+  align-items: center;
+  border-bottom: 1px solid var(--border-color);
+  font-size: 0.95rem;
+  font-weight: 600;
+  text-align: left;
+  padding: 8px 0;
 }
 
 .horario-item:last-child {
-    border-bottom: none;
+  border-bottom: none;
 }
 
-/* ✅ TEXTOS DE HORARIOS ALINEADOS A LA IZQUIERDA */
 .dias {
-    flex: 2;
-    font-weight: 600;
-    color: var(--primary-color);
-    text-align: left;
+  font-weight: 600;
+  color: var(--primary-color);
+  text-align: left;
 }
 
 .horas {
-    flex: 1.5;
-    font-weight: 500;
-    color: #555;
-    text-align: left;
+  font-weight: 500;
+  color: var(--muted-color);
+  text-align: left;
 }
 
 .estado-cupo {
-    flex: 1;
-    font-weight: bold;
-    text-align: left; /* Asegura alineación a la izquierda */
+  font-weight: 700;
+  text-align: left;
 }
 
-/* ✅ COLORES DE DISPONIBILIDAD */
 .cupos-disponibles {
-    color: #198754;
+  color: #198754;
 }
 
 .sin-cupos {
-    color: #dc3545;
+  color: #dc3545;
 }

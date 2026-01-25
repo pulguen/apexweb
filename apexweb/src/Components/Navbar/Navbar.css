@@ -1,13 +1,16 @@
-.navbar{
-  background-color: var(--light-color);  
+.navbar {
+  background-color: var(--surface-color);
+  border-bottom: 1px solid var(--border-color);
+  padding: 12px 0;
 }
 
-.logo{
-  width: 45px;
+.logo {
+  width: 42px;
 }
+
 .logotipo {
-    font-size: var(--font-size);
-    font-weight: 800;
-    padding-top: 3px;
-    color: var(--primary-color);
-  }
+  font-size: 1.1rem;
+  font-weight: 800;
+  padding-top: 3px;
+  color: var(--primary-color);
+}

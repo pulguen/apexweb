@@ -1,4 +1,4 @@
-import React from 'react';
+﻿import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faFacebook, faInstagram, faTiktok, } from '@fortawesome/free-brands-svg-icons';
 import './Header.css';
@@ -7,8 +7,8 @@ import Container from 'react-bootstrap/esm/Container';
 export default function Header() {
   return (
     <>
-    <Container className='mt-3 ml-1'>
-      <h2 className='titulo'>¡Hola!¡Somos Apex!</h2>
+    <Container className='mt-3 ml-1 header'>
+      <h2 className='titulo'>¡Hola! ¡Somos Apex!</h2>
       <h1 className='encabezado'>Tu camino<br /> Hacia la<br /> Fuerza</h1>
       <p className='parrafo'>Gimnasio de fuerza y acondicionamiento físico dedicado a ayudar a los atletas a alcanzar su máximo potencial.</p>
       <div className=" mt-0 social-links">
@@ -26,3 +26,5 @@ export default function Header() {
     </>
   );
 }
+
+
