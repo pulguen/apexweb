@@ -1,4 +1,4 @@
-﻿import React from 'react';
+import React from 'react';
 import './App.css';
 import Navbar from'./Components/Navbar/Navbar.jsx';
 import Header from './Components/Header/Header.jsx';
