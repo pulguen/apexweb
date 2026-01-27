@@ -21,7 +21,7 @@
 }
 
 .App {
-    font-family: 'Ofelia Display', sans-serif;
+    font-family: inherit;
     max-width: var(--content-max);
     margin: 0 auto;
     padding: 0 20px 48px;
