@@ -1,0 +1,3 @@
+display_name: Apex Section Builder
+short_description: Crear e integrar secciones React del landing
+default_prompt: Crea o modifica secciones del frontend Apex siguiendo el patron JSX+CSS por componente e integrando el resultado en App.js.

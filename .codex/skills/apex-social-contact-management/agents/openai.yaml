@@ -1,0 +1,3 @@
+display_name: Apex Social Contact
+short_description: Manage social and contact links
+default_prompt: Update social and contact links in Apex Header, Footer, and Navbar while preserving visual consistency, correct imports, and safe external link practices.

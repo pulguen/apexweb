@@ -1,0 +1,3 @@
+﻿display_name: Apex Text Encoding Fix
+short_description: Corrige acentos y signos corruptos en JSX/CSS
+default_prompt: Corrige caracteres mal codificados en el frontend Apex sin cambiar logica, clases ni estructura de componentes.

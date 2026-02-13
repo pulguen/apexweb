@@ -1,0 +1,3 @@
+display_name: Apex Content Updates
+short_description: Actualizar contenido comercial y operativo del sitio
+default_prompt: Actualiza datos visibles del sitio Apex en componentes existentes, priorizando cambios en estructuras de datos y preservando estilos y formato local.

@@ -1,0 +1,3 @@
+﻿display_name: Apex Frontend Smoke Checks
+short_description: Valida build y arranque rapido del frontend
+default_prompt: Ejecuta smoke checks del frontend Apex para confirmar compilacion y detectar regresiones tecnicas tras cambios.

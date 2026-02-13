@@ -1,4 +1,4 @@
-import { useState } from 'react';
+﻿import { useState } from 'react';
 import Container from 'react-bootstrap/Container';
 import Button from 'react-bootstrap/Button';
 import Collapse from 'react-bootstrap/Collapse';
@@ -55,7 +55,7 @@ function Contact() {
       nombre: "Leandro Figueroa",
       whatsapp: "https://wa.me/542942447165",
       horarios: [
-        { dia: "Lunes, Martes y Jueves", horas: "19 a 23 hs", cupos: "Cupos disponibles" },      
+        { dia: "Lunes, Martes, Jueves y Viernes", horas: "19 a 23 hs", cupos: "Cupos disponibles" },      
       ],
       perfil: [
         "Coach en Apex desde 2023",
@@ -145,6 +145,4 @@ function Contact() {
 }
 
 export default Contact;
-
-
 

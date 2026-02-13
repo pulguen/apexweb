@@ -1,0 +1,3 @@
+display_name: Apex CSS Consistency
+short_description: Mejorar consistencia visual y responsive
+default_prompt: Ajusta estilos del frontend Apex con variables de tema, coherencia tipografica y enfoque responsive sin cambiar la arquitectura.
