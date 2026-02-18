@@ -5,9 +5,9 @@ import { faDollarSign } from '@fortawesome/free-solid-svg-icons';
 import './Tarifas.css';
 
 const PLANES = [
-  { dias: 'X4', precio: 52000, destacado: true },
-  { dias: 'X3', precio: 50000, destacado: false },
-  { dias: 'X2', precio: 48000, destacado: false },
+  { dias: 'X4', precio: 62000, destacado: true },
+  { dias: 'X3', precio: 60000, destacado: false },
+  { dias: 'X2', precio: 58000, destacado: false },
 ];
 
 export default function Tarifas() {
